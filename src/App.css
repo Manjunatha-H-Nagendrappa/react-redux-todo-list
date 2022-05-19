@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: rgb(212, 255, 216);
+  min-width: 450px;
+  min-height: 450px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 3px 6px 40px black;
+  margin-bottom: 80px;
+}
+
+.completed {
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+
+input,
+button {
+  margin: 3px;
+}
